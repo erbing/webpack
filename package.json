@@ -7,8 +7,12 @@
     "init": "npm i --registry=https://registry.npm.taobao.org",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "vue": "^2.0.x"
+  },
   "devDependencies": {
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.x"
   },
   "author": "zigzag",
   "license": "ISC"
