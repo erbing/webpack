@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "init": "npm i --registry=https://registry.npm.taobao.org",
+    "webpack": "webpack-dev-server --progress --colors --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -12,7 +13,9 @@
   },
   "devDependencies": {
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.x"
+    "webpack-dev-server": "^1.16.x",
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0"
   },
   "author": "zigzag",
   "license": "ISC"
