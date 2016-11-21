@@ -1,4 +1,5 @@
 const webpack =  require("webpack");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
     entry: './src/main.js',
@@ -14,6 +15,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.BannerPlugin("this is build js banner")
+        new webpack.BannerPlugin("this is build js banner"),
+        new HtmlWebpackPlugin(),
     ]
 }

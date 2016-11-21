@@ -1,7 +1,9 @@
 const a = {
-    age: '123',
+    age: '12333',
     name: 'zigzag',
     sayName : function() {
         return this.name;
     }
 }
+
+module.exports = a;
